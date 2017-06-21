@@ -1,0 +1,79 @@
+body{padding-top:30px;}
+
+
+
+
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
+}
+.friendly {
+    margin-top:-20px;
+    background-color:#1abc9c;
+    border:2px solid #16A085;
+    text-align:center;
+    cursor:pointer;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 0px !important;
+}
+
+.friendly:hover {
+    margin-top:-20px;
+    background-color:#16A085;
+    border:2px solid #16A085;
+    text-align:center;
+    cursor:pointer;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 0px !important;
+    border-bottom : 2px solid #00FF00;
+}
+.heart {
+    margin-top:-20px;
+    background-color:#D9534F;
+    border:2px solid #D43F3A;
+    text-align:center;
+    cursor:pointer;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 0px !important;
+}
+
+.heart:hover {
+    margin-top:-20px;
+    background-color:#D43F3A;
+    border:2px solid #D43F3A;
+    text-align:center;
+    cursor:pointer;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 0px !important;
+    border-bottom : 2px solid #FF0000;
+}
+.like {
+    margin-top:-20px;
+    background-color:#337AB7;
+    border:2px solid #2E6DA4;
+    text-align:center;
+    cursor:pointer;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 0px !important;
+}
+
+.like:hover {
+    margin-top:-20px;
+    background-color:#2E6DA4;
+    border:2px solid #2E6DA4;
+    text-align:center;
+    cursor:pointer;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 0px !important;
+    border-bottom : 2px solid #0000FF;
+}
