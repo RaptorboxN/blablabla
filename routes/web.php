@@ -22,3 +22,7 @@ Route::get('timeline', function () {
 Route::get('main1', function (){
     return view('main1');
 });
+
+Route::get('profiel', function (){
+    return view('profiel');
+});
