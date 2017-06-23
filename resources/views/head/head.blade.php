@@ -15,5 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/blog.css" rel="stylesheet">
+    <link href="/css/timelinecss.css" rel="stylesheet">
+    {{--<link href="/css/profielcss.css" rel="stylesheet">--}}
 
 </head>

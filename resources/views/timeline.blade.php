@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-@include('head.head2')
+@include('head.head')
 
 <body>
 

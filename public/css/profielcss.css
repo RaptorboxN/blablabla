@@ -1,79 +1,44 @@
-body{padding-top:30px;}
 
-
-
-
-
-.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
-
-small {
-    display: block;
-    line-height: 1.428571429;
-    color: #999;
-}
-.friendly {
-    margin-top:-20px;
-    background-color:#1abc9c;
-    border:2px solid #16A085;
+.stats {
     text-align:center;
-    cursor:pointer;
-    font-size: 25px;
-    padding: 15px;
-    border-radius: 0px !important;
+    text-shadow:1px 1px 0px #fff;
+    margin-top:25px;
+
+}
+.stats li{
+    width:125px;
+}
+.stats span{
+    font-family:Helvetica;
+    font-weight:bold;
+    text-shadow:1px 1px 0px #fff;
+    font-size:4em;
+
+    display:block;
+    line-height:1em;
 }
 
-.friendly:hover {
-    margin-top:-20px;
-    background-color:#16A085;
-    border:2px solid #16A085;
-    text-align:center;
-    cursor:pointer;
-    font-size: 25px;
-    padding: 15px;
-    border-radius: 0px !important;
-    border-bottom : 2px solid #00FF00;
-}
-.heart {
-    margin-top:-20px;
-    background-color:#D9534F;
-    border:2px solid #D43F3A;
-    text-align:center;
-    cursor:pointer;
-    font-size: 25px;
-    padding: 15px;
-    border-radius: 0px !important;
+/* Large desktop */
+@media (min-width: 1200px) {
 }
 
-.heart:hover {
-    margin-top:-20px;
-    background-color:#D43F3A;
-    border:2px solid #D43F3A;
-    text-align:center;
-    cursor:pointer;
-    font-size: 25px;
-    padding: 15px;
-    border-radius: 0px !important;
-    border-bottom : 2px solid #FF0000;
-}
-.like {
-    margin-top:-20px;
-    background-color:#337AB7;
-    border:2px solid #2E6DA4;
-    text-align:center;
-    cursor:pointer;
-    font-size: 25px;
-    padding: 15px;
-    border-radius: 0px !important;
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
 }
 
-.like:hover {
-    margin-top:-20px;
-    background-color:#2E6DA4;
-    border:2px solid #2E6DA4;
-    text-align:center;
-    cursor:pointer;
-    font-size: 25px;
-    padding: 15px;
-    border-radius: 0px !important;
-    border-bottom : 2px solid #0000FF;
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .profile img{
+        width:75px;
+    }
+    .profile h2{
+        font-size:1.7em;
+    }
+    .stats span{
+        font-size: 2em;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
 }

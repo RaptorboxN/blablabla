@@ -2,7 +2,12 @@
 <html lang="en">
     @include('head.head3')
     <body>
-        @include('layouts.nav2')
-        @include('layouts.profiel')
+        <div>
+            @include('layouts.nav2')
+        </div>
+        <div>
+            @include('layouts.profiel')
+        </div>
+
     </body>
 </html>
