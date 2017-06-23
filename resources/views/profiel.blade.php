@@ -14,7 +14,7 @@
     <div class="container">
         @include('layouts.blog')
         @include('layouts.blog')
-        @include('layouts.gallery')
+        @include('layouts.blog')
     </div>
 
     <div>
