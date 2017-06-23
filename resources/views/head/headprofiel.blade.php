@@ -11,11 +11,12 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    {{--<link href="/css/blognav.css" rel="stylesheet">--}}
-    <link href="/css/profielcss.css" rel="stylesheet">
-
+    <link href="/css/blog.css" rel="stylesheet">
+    <link href="/css/profiel2.css" rel="stylesheet">
+    {{--<link href="/css/timelinecss.css" rel="stylesheet">--}}
+    {{--<link href="/css/profielcss.css" rel="stylesheet">--}}
 
 </head>
